@@ -1,0 +1,18 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "deni",
+    "password": "denis1231234",
+    "database": "lol",
+    "logging": false,
+    "entities": [
+       "src/entitys/**/*.ts"
+    ],
+    "migrations": [
+       "src/migration/**/*.ts"
+    ],
+    "cli": {
+      "migrationsDir": "src/database/migration"
+  }
+ }
