@@ -10,7 +10,7 @@
        "src/entitys/**/*.ts"
     ],
     "migrations": [
-       "src/migration/**/*.ts"
+       "src/database/migration/**/*.ts"
     ],
     "cli": {
       "migrationsDir": "src/database/migration"

@@ -81,11 +81,11 @@ export class CreateChampionsTable1618507865745 implements MigrationInterface {
                     passive: "SEGUNDA PELE",
                     img_passive: "https://ddragon.leagueoflegends.com/cdn/11.7.1/img/passive/Kaisa_Passive.png",
                     Q: "CHUVA ICATHIANA",
-                    Q_img: "https://ddragon.leagueoflegends.com/cdn/11.7.1/img/passive/Kaisa_Passive.png",
+                    Q_img: "https://ddragon.leagueoflegends.com/cdn/11.8.1/img/spell/KaisaQ.png",
                     W: "EXPLORADORA DO VAZIO",
                     W_img: "https://ddragon.leagueoflegends.com/cdn/11.7.1/img/spell/KaisaW.png",
                     E: "SOBRECARGA",
-                    E_img: "https://ddragon.leagueoflegends.com/cdn/11.7.1/img/spell/KaisaW.png",    
+                    E_img: "https://ddragon.leagueoflegends.com/cdn/11.8.1/img/spell/KaisaE.png",    
                     R: "INSTINTO ASSASSINO",
                     R_img: "https://ddragon.leagueoflegends.com/cdn/11.7.1/img/spell/KaisaR.png",
         
@@ -266,7 +266,7 @@ export class CreateChampionsTable1618507865745 implements MigrationInterface {
                     img_champion: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xayah_0.jpg",
                     function: "Atirador",
                     passive: "CORTES CERTEIROS",
-                    img_passive: "",
+                    img_passive: "https://ddragon.leagueoflegends.com/cdn/11.8.1/img/passive/XayahPassive.png",
                     Q: "PUNHAIS DUPLOS",
                     Q_img: "https://ddragon.leagueoflegends.com/cdn/11.7.1/img/spell/XayahQ.png",
                     W: "PLUMAGEM MORTÍFERA",
@@ -274,7 +274,7 @@ export class CreateChampionsTable1618507865745 implements MigrationInterface {
                     E: "INVOCADORA DAS LÂMINAS",
                     E_img: "https://ddragon.leagueoflegends.com/cdn/11.7.1/img/spell/XayahE.png",    
                     R: "TEMPESTADE DE PLUMAS",
-                    R_img: "https://ddragon.leagueoflegends.com/cdn/11.7.1/img/spell/XayahE.png",
+                    R_img: "https://ddragon.leagueoflegends.com/cdn/11.7.1/img/spell/XayahR.png",
 
                 }
             ]).execute()
